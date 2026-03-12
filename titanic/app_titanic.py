@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Carregar o modelo que você treinou no Jupyter
 modelo = joblib.load('modelo_titanic.pkl')
 
 st.title("🚢 Previsão de Sobrevivência - Titanic")
